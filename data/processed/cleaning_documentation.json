@@ -1,0 +1,32 @@
+{
+    "Cleaning Date": "2026-01-28 15:00:01",
+    "Original Rows": 150000,
+    "Final Rows": 150000,
+    "Rows Removed": 0,
+    "Missing Value Strategies": {
+        "Payment Method": "Filled with 'Unknown'"
+    },
+    "Outlier Treatment": {
+        "Booking Value": "Capped at 1st (58.99) and 99th (1963.01) percentiles",
+        "Ride Distance": "Capped at 99th percentile (49.47)",
+        "Driver Ratings": "No treatment needed - all values valid",
+        "Customer Rating": "No treatment needed - all values valid",
+        "Avg VTAT": "Kept as-is - extremes may represent valid business cases",
+        "Avg CTAT": "Kept as-is - extremes may represent valid business cases"
+    },
+    "New Features": [
+        "Year",
+        "Month",
+        "Day",
+        "Hour",
+        "Minute",
+        "Day_of_Week",
+        "Week_of_Year",
+        "Day_Name",
+        "Month_Name",
+        "Is_Weekend",
+        "Is_Peak_Hour",
+        "Time_of_Day",
+        "Quarter"
+    ]
+}
